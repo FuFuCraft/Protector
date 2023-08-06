@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.abstruck.fabric.fufucraft.protector.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityExplosionBehaviorMixin",
+    "ExplosionBehaviorMixin",
+    "FarmlandBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
