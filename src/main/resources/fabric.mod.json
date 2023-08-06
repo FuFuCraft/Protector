@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "protector",
+  "version": "${version}",
+  "name": "Protector",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/FuFuCraft/protector"
+  },
+  "license": "MIT",
+  "icon": "assets/protector/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.abstruck.fabric.fufucraft.protector.client.ProtectorClient"
+    ],
+    "main": [
+      "org.abstruck.fabric.fufucraft.protector.Protector"
+    ]
+  },
+  "mixins": [
+    "protector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
